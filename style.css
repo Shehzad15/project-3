@@ -1,0 +1,26 @@
+
+#nav-container{
+    background-image:url(img/billboard.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list ul{
+    display: flex;
+
+}
+
+.navbar-list li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin: 15px 15px;
+}
