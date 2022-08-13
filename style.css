@@ -10,6 +10,12 @@
 .nav-data{
     display: flex;
     justify-content: space-between;
+    padding: 5px 30px;
+    background-color:rgba(255, 255, 255, 0.6) ;
+    height: 80px;
+}
+.nav-logo{
+    text-align: center;
 }
 
 .navbar-list ul{
@@ -17,10 +23,105 @@
 
 }
 
-.navbar-list li a{
-    list-style-type: none;
+.navbar-list li,a{
+    list-style: none;
     text-decoration: none;
     color: #000;
     font-size: 20px;
     margin: 15px 15px;
+    
+}
+
+.nav-item li,a:hover{
+    color: red;
+}
+
+.banner-para{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.6);
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.banner-text{
+    font-size: 20px;
+    margin: 5px 20px;
+}
+
+.banner-btn{
+    width: 20px;
+    margin: 20px 100px;
+    padding: 5px 80px;
+    color: white;
+    /* background-color:rgb(255, 0, 0); */
+    font-size: 10px;
+    border: 0;
+}
+
+.header{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.aboutus-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.studio-data{
+    margin: 0px 200px;
+    background-color: #f9f6f6;
+}
+
+/* .img-list{
+    display: flex;
+    margin: 0px 10px;
+    width: 100px;
+} */
+
+.header-T{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.testimonials-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.testimonials-data{
+    margin: 0px 200px;
+    background-color: #f9f6f6;
+}
+
+.role{
+    color: #989898;
+    font-size: 15px;
+}
+
+.logo{
+    display: flex;
+    background-color: #fbf3f3;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 15px;
+    width: 70%;
+}
+
+.brand-logo{
+    width: 100%;
 }
