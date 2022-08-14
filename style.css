@@ -1,4 +1,3 @@
-
 #nav-container{
     background-image:url(img/billboard.jpg);
     height: 100vh;
@@ -10,12 +9,14 @@
 .nav-data{
     display: flex;
     justify-content: space-between;
-    padding: 5px 30px;
+    padding: 2px 30px;
     background-color:rgba(255, 255, 255, 0.6) ;
     height: 80px;
+    width: 98%;
 }
 .nav-logo{
     text-align: center;
+    padding-top: 1px;
 }
 
 .navbar-list ul{
@@ -29,11 +30,12 @@
     color: #000;
     font-size: 20px;
     margin: 15px 15px;
+    padding-bottom: 5px;
     
 }
 
 .nav-item li,a:hover{
-    color: red;
+    color: rgb(26, 224, 224);
 }
 
 .banner-para{
@@ -42,7 +44,7 @@
     justify-content: space-between;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 99.5%;
     height: 70px;
 }
 
@@ -51,14 +53,23 @@
     margin: 5px 20px;
 }
 
-.banner-btn{
-    width: 20px;
-    margin: 20px 100px;
-    padding: 5px 80px;
-    color: white;
-    /* background-color:rgb(255, 0, 0); */
-    font-size: 10px;
-    border: 0;
+.banner-btn :hover{
+    color: blue;
+    justify-content: center;
+    align-items: center;  
+}
+
+.btn_1{
+    width:300px;
+    height: 30px;
+    margin: 22px 112px;
+    justify-content: center;
+    background-color: rgb(67, 222, 222); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #f9f6f6;
+    border: 0px;
+    
 }
 
 .header{
@@ -81,11 +92,14 @@
     background-color: #f9f6f6;
 }
 
-/* .img-list{
+.flex-services{
     display: flex;
-    margin: 0px 10px;
-    width: 100px;
-} */
+}
+
+.flex-services img{
+    width: 300px;
+    border: 0px;
+}
 
 .header-T{
     text-align: center;
@@ -113,15 +127,56 @@
 }
 
 .logo{
-    display: flex;
-    background-color: #fbf3f3;
-    justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 250px;
-    padding: 15px;
-    width: 70%;
+    width: 100%;
+    background-color: #f3f2f2;
 }
 
 .brand-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.footer-text{
+    justify-content: space-between;
+    width: 70%;
+    color: #fff;
+    background-color: #434343;
+    height: 70px;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px 10px;
+}
+.footer-container{
+    display: flex;
     width: 100%;
+    height: 400px;
+    background-color: #353535;
+}
+
+.btn_2 button{
+width: 20px;
+margin: 30px 30px;
+padding: 10px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.location .company .support .ARK{
+    text-align: justify;
+    padding: 5px;
+
+}
+
+.fa-brands{
+    background-color: red;
+    color: #fff;
 }
